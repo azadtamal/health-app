@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  /* display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden; */
+  font-size: 15px;
+  line-height: 1.5em;
+  background: none repeat scroll 0 0;
+}
+.tracking-area {
+  width: 100%;
+  clear: both;
+  padding: 45px 0;
+}
+.inner-tracking {
+  width: 98%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.inner-tracking.main {
+  display: flex;
+}
+.child-tracking {
+  background-color: rgb(238, 107, 199);
+  width: 25%;
+  padding: 40px 30px;
+  margin: 0 1% 10px;
+  border-radius: 25px;
+}
+.inner-tracking h2 {
+  margin-bottom: 20px;
+}
+.child-tracking:nth-child(1) {
+  background-color: rgb(231, 191, 79);
+}
+.child-tracking:nth-child(2) {
+  background-color: rgb(128, 250, 98);
+}
+.child-tracking:nth-child(3) {
+  background-color: rgb(146, 127, 255);
+}
+.child-tracking i {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.child-tracking h5 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 15px;
+}
+.child-tracking p {
+  margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .inner-tracking.main {
+    display: flex;
+    justify-content: space-between;
+  }
+  .child-tracking {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+  }
+}
